@@ -1,0 +1,48 @@
+# Normalização de fins de linha (ficheiros de texto)
+* text=auto
+
+# Ficheiros YAML do Unity (com Asset Serialization = Force Text) — texto
+*.unity    text eol=lf
+*.prefab   text eol=lf
+*.mat      text eol=lf
+*.asset    text eol=lf
+*.meta     text eol=lf
+*.controller text eol=lf
+*.anim     text eol=lf
+*.shadergraph text eol=lf
+*.shadersubgraph text eol=lf
+*.cs       text diff=csharp
+*.shader   text
+*.hlsl     text
+*.md       text
+
+# --- Binários grandes -> Git LFS ---
+# Imagens / texturas
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.jpg  filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tga  filter=lfs diff=lfs merge=lfs -text
+*.tif  filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.psd  filter=lfs diff=lfs merge=lfs -text
+*.exr  filter=lfs diff=lfs merge=lfs -text
+*.hdr  filter=lfs diff=lfs merge=lfs -text
+# Modelos 3D
+*.fbx   filter=lfs diff=lfs merge=lfs -text
+*.obj   filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb   filter=lfs diff=lfs merge=lfs -text
+*.gltf  filter=lfs diff=lfs merge=lfs -text
+# Áudio / vídeo
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+# Fontes e outros
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+# Dados de iluminação baked (binários mesmo com Force Text)
+LightingData.asset filter=lfs diff=lfs merge=lfs -text
