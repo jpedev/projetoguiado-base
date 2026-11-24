@@ -6,7 +6,7 @@ Modelo do repositório do projeto guiado. Contém só a configuração (`.gitign
 
 ---
 
-## Caminho A — Ainda não tenho repositório
+## Opção A — Ainda não tenho repositório
 
 1. Nesta página: **Use this template → Create a new repository**.
    - *Owner*: a tua conta. *Repository name*: por exemplo `cg-projeto-guiado`.
@@ -17,7 +17,7 @@ Modelo do repositório do projeto guiado. Contém só a configuração (`.gitign
 5. No GitHub Desktop: escreve a mensagem "Projeto base" → **Commit to main** → **Push origin**.
 6. Continua no ponto **"Partilhar com o docente"** mais abaixo.
 
-## Caminho B — Já tenho um repositório com o projeto
+## Opção B — Já tenho um repositório com o projeto
 
 O objetivo é manter o histórico que já tens e acrescentar-lhe a configuração.
 
